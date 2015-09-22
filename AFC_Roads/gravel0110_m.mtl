@@ -1,0 +1,10 @@
+<Material MtlFlags="524328" Shader="Illum" GenMask="2000080800" StringGenMask="%DECAL%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.16364066,0.16364066,0.16364066" Specular="0.089193508,0.089193508,0.089193508" Emissive="0,0,0" Shininess="42" Opacity="0.99000001" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/road/gravel0110_m.dds" Filter="7">
+   <TexMod OffsetU="1" OffsetV="1"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/road/gravel0110_m.dds"/>
+ </Textures>
+ <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.183" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

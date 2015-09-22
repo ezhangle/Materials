@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="80A00" StringGenMask="%BUMP_MAP%DECAL%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="1,1,1" Specular="0.058187179,0.058187179,0.058187179" Emissive="0,0,0" Shininess="88" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decals/leaking/decalleakingmossy0006_1_l.dds"/>
+  <Texture Map="Specular" File="textures/decals/leaking/specular/decalleakingmossy0006_1_m_spec.tif"/>
+  <Texture Map="Bumpmap" File="textures/decals/leaking/normal/decalleakingmossy0006_1_m_ddn.tif"/>
+ </Textures>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.70899999" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

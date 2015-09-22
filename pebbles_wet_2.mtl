@@ -1,0 +1,12 @@
+<Material MtlFlags="524288" Shader="Terrain.Layer" GenMask="208040200" StringGenMask="%BUMP_MAP%GLOSS_DIFFUSEALPHA%PARALLAX_OCCLUSION_MAPPING%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.073827766,0.073827766,0.073827766" Emissive="0,0,0" Shininess="120" Opacity="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/river_pebbles_wet_diff.tif" Filter="7">
+   <TexMod TileU="0.1" TileV="0.1"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/river_pebbles_wet_ddn.tif">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+  <Texture Map="Heightmap" File="textures/terrain/detail/river_pebbles_wet_displ.tif"/>
+ </Textures>
+ <PublicParams BlendFalloff="108" DetailTextureStrength="0.55000001" PomDisplacement="0.02" FresnelScale="1" FresnelBias="0.40000001" SelfShadowStrength="5" HeightBias="0.5" BlendFactor="9" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="800" StringGenMask="%DECAL" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.028991185,0.028991185,0.028991185" Emissive="0,0,0" Shininess="30" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decals/terrain/moss/moss0107_6_l_radial_decal.dds" Filter="7"/>
+ </Textures>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.87400001" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

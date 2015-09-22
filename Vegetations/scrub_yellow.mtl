@@ -1,0 +1,16 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="scrub" MtlFlags="524416" Shader="Vegetation" GenMask="2400200200" StringGenMask="%BUMP_MAP%GRASS%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.23489527,0.25491586,0.042987008" Specular="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" Shininess="20" Opacity="1" AlphaTest="0.28999999" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/scrub_diff.tif"/>
+    <Texture Map="Specular" File="objects/natural/trees/rocky_ravine/textures/scrub_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/scrub_ddn.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.026800001" bendDetailFrequency="2.3399999" bendDetailBranchAmplitude="0.0073500001" BlendTerrainCol="0" GlossMapChannelB="0" FresnelScale="1" VertexAlphaBlendFactor="1" FresnelBias="0.40000001" BackViewDep="0.18799999" BackDiffuseMultiplier="0.40000001" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_grass" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

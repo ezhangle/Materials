@@ -1,0 +1,9 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="80A00" StringGenMask="%BUMP_MAP%DECAL%GLOSS_MAP" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.24279638,0.28445208,0.05284163" Specular="0.031551391,0.031551391,0.031551391" Emissive="0,0,0" Shininess="33" Opacity="0.64999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decals/terrain/grass0155_13_decal_l.dds" Filter="7"/>
+  <Texture Map="Specular" File="textures/terrain/grass/specular/grass0155_13_m_spec.dds"/>
+  <Texture Map="Bumpmap" File="textures/terrain/grass/normal/grass0155_13_m_ddn.dds"/>
+  <Texture Map="Detail" File="textures/detail_bumpmaps/rock/rock_1_detail.dds"/>
+ </Textures>
+ <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.89399999" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,4 @@
+<Material MtlFlags="526336" Shader="Lightbeam.LightBeam" GenMask="5" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.77422732,0.8591736,0.57954663" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+ <Textures />
+ <PublicParams fGlobalDensity="1.17" fNoiseDirZ="0" vNoiseSpeed="1" fFadeScale="100" fNoiseCoordScale="0" JitterScale="38.799999" fNoiseDirY="0" fNoiseDirX="1" fFadeDist="837" fNoiseStrength="2"/>
+</Material>

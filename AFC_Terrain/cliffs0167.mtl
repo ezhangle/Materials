@@ -1,0 +1,35 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="524416" Shader="Terrain.Layer" GenMask="200080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.030256517,0.030256517,0.030256517" Emissive="0,0,0" Shininess="62" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/rock/cliffs0167_11_l.dds" Filter="7">
+     <TexMod TileU="0.050000001" TileV="0.050000001"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/rock/specular/cliffs0167_11_m_spec.dds"/>
+    <Texture Map="Bumpmap" File="textures/terrain/rock/normal/cliffs0167_11_m_ddn.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" DetailTextureStrength="0.76499999" FresnelScale="1" FresnelBias="0.80000001" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="y" MtlFlags="524416" Shader="Terrain.Layer" GenMask="200080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.030256517,0.030256517,0.030256517" Emissive="0,0,0" Shininess="62" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/rock/cliffs0167_11_l.dds" Filter="7">
+     <TexMod TileU="0.050000001" TileV="0.050000001"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/rock/specular/cliffs0167_11_m_spec.dds"/>
+    <Texture Map="Bumpmap" File="textures/terrain/rock/normal/cliffs0167_11_m_ddn.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" DetailTextureStrength="0.76499999" FresnelScale="1" FresnelBias="0.80000001" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="z" MtlFlags="524416" Shader="Terrain.Layer" GenMask="200080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.030256517,0.030256517,0.030256517" Emissive="0,0,0" Shininess="62" Opacity="1" CloakAmount="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/rock/cliffs0167_11_l.dds" Filter="7">
+     <TexMod TileU="0.050000001" TileV="0.050000001"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/rock/specular/cliffs0167_11_m_spec.dds"/>
+    <Texture Map="Bumpmap" File="textures/terrain/rock/normal/cliffs0167_11_m_ddn.dds"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" DetailTextureStrength="0.76499999" FresnelScale="1" FresnelBias="0.80000001" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

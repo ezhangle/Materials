@@ -1,0 +1,10 @@
+<Material MtlFlags="524288" Shader="Terrain.Layer" GenMask="200080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%TEMP_TERRAIN" SurfaceType="mat_rock_landslide" MatTemplate="" Diffuse="0.56680977,0.56680977,0.56680977" Specular="0.047775757,0.047775757,0.047775757" Emissive="0,0,0" Shininess="63" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/ground/gravelcobble0019_15_l.dds" Filter="7" TexType="5">
+   <TexMod TileU="0.1" TileV="0.1"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/ground/specular/gravelcobble0019_15_m_spec.dds"/>
+  <Texture Map="Bumpmap" File="textures/terrain/ground/normal/gravelcobble0019_15_m_ddn.dds"/>
+ </Textures>
+ <PublicParams BlendFalloff="1" DetailTextureStrength="0.43599999" FresnelScale="1" FresnelBias="0.329" BlendFactor="0" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+</Material>

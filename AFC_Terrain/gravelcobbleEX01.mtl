@@ -1,0 +1,14 @@
+<Material MtlFlags="524329" Shader="Terrain.Layer" GenMask="208080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%PARALLAX_OCCLUSION_MAPPING%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.027755279,0.027755279,0.027755279" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/ground/gravelcobble0003_2_ex_l.dds" Filter="7">
+   <TexMod TileU="0.40000001" TileV="0.40000001"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/ground/specular/gravelcobble0003_2_ex_m_spec.tif"/>
+  <Texture Map="Bumpmap" File="textures/terrain/ground/normal/gravelcobble0003_2_ex_m_ddn.tif">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Heightmap" File="textures/terrain/ground/normal/gravelcobble0003_2_m2_displ.dds"/>
+ </Textures>
+ <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+ <PublicParams BlendFalloff="50" DetailTextureStrength="0.5" PomDisplacement="0.022500001" FresnelScale="1" FresnelBias="0.5" SelfShadowStrength="0.25" HeightBias="0" BlendFactor="16" IndirectColor="0.25,0.25,0.25"/>
+</Material>

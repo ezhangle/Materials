@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="80200" StringGenMask="%BUMP_MAP%GLOSS_MAP" SurfaceType="" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.047775757,0.047775757,0.047775757" Emissive="0,0,0" Shininess="48" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decals/patched wall/decalspatches2018_1_m.dds"/>
+  <Texture Map="Specular" File="textures/decals/patched wall/specular/decalspatches2018_1_m_spec.dds"/>
+  <Texture Map="Bumpmap" File="textures/decals/patched wall/normal/decalspatches2018_1_m_ddn.dds"/>
+ </Textures>
+ <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.87400001" IndirectColor="0.25,0.25,0.25"/>
+</Material>

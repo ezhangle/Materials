@@ -1,0 +1,10 @@
+<Material MtlFlags="524288" Shader="Terrain.Layer" GenMask="200080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%TEMP_TERRAIN" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.27583286,0.27583286,0.27583286" Specular="0.15728073,0.15728073,0.15728073" Emissive="0,0,0" Shininess="33" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/grass/grass0052_9_l.dds" Filter="7">
+   <TexMod TileU="0.75" TileV="0.75"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/grass/specular/grass0052_9_m_spec.dds"/>
+  <Texture Map="Bumpmap" File="textures/terrain/grass/normal/grass0052_9_m_ddn2.dds"/>
+ </Textures>
+ <PublicParams BlendFalloff="1" DetailTextureStrength="0.39199999" FresnelScale="1.2" FresnelBias="0.322" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

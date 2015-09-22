@@ -1,0 +1,12 @@
+<Material MtlFlags="524328" Shader="Illum" GenMask="2000080A00" StringGenMask="%BUMP_MAP%DECAL%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.16364066,0.16364066,0.16364066" Specular="0.089193508,0.089193508,0.089193508" Emissive="0,0,0" Shininess="42" Opacity="0.99000001" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/road/floorherringbone0074_1_m_w_alpha_2.dds" Filter="7">
+   <TexMod OffsetU="1" OffsetV="1"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/buildings/floor/specular/floorherringbone0074_1_m_spec.dds"/>
+  <Texture Map="Bumpmap" File="textures/buildings/floor/normal/floorherringbone0074_1_m_ddn.dds"/>
+  <Texture Map="Heightmap" File="textures/buildings/floor/specular/floorherringbone0074_1_m_hm.dds"/>
+ </Textures>
+ <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+ <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.183" IndirectColor="0.25,0.25,0.25"/>
+</Material>

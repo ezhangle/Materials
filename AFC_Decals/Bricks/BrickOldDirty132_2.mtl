@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="800" StringGenMask="%DECAL" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decals/bricks/brickolddirty0132_7_m_2.dds"/>
+ </Textures>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="0.89399999" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,22 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="proxy_bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="leaf" MtlFlags="524416" Shader="Vegetation" GenMask="2420C01400" StringGenMask="%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%NORMAL_MAP%SPECULAR_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.44787085,0.40454084,0.20109573" Specular="0.098689198,0.098689198,0.098689198" Emissive="0,0,0" Opacity="1" Shininess="20" AlphaTest="0.5" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/vegetation/branches/branches0002_m_ex.dds" Filter="7"/>
+    <Texture Map="Bumpmap" File="textures/vegetation/branches/normal/branches0002_m_ex_ddn.dds"/>
+    <Texture Map="Specular" File="textures/vegetation/branches/specular/branches0002_m_ex_spec.dds"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/plants/plants_leaf_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="15" TileV="15"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.30000001" bendDetailFrequency="0.5" bendDetailBranchAmplitude="0" BlendTerrainCol="0" DetailDiffuseScale="1" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" DetailBumpScale="1" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.30000001" BackDiffuseMultiplier="0.75" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="0,1,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

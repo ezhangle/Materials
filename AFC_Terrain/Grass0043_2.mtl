@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Terrain.Layer" GenMask="200000000" StringGenMask="%TEMP_TERRAIN" SurfaceType="mat_grass" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0,0,0" Emissive="0,0,0" Shininess="33" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/grass/grass0043_2_l.dds" Filter="7">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+ </Textures>
+ <PublicParams BlendFalloff="1" DetailTextureStrength="0.39199999" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

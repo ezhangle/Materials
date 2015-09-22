@@ -1,0 +1,32 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="524452" Shader="Terrain.Layer" GenMask="240000000" StringGenMask="%SPEC_MAP%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.44232297,0.44232297,0.44232297" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="36" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/rock/cliffs0090_2_l.dds" Filter="7">
+     <TexMod TileU="0.050000001" TileV="0.050000001"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/rock/specular/cliffs0090_2_m_spec.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" DetailTextureStrength="0.46200001" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="y" MtlFlags="524452" Shader="Terrain.Layer" GenMask="240000000" StringGenMask="%SPEC_MAP%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.44232297,0.44232297,0.44232297" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="36" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/rock/cliffs0090_2_l.dds" Filter="7">
+     <TexMod TileU="0.050000001" TileV="0.050000001"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/rock/specular/cliffs0090_2_m_spec.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" DetailTextureStrength="0.46200001" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="z" MtlFlags="524452" Shader="Terrain.Layer" GenMask="240000000" StringGenMask="%SPEC_MAP%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.44232297,0.44232297,0.44232297" Specular="0.029556841,0.029556841,0.029556841" Emissive="0,0,0" Shininess="36" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/rock/cliffs0090_2_l.dds" Filter="7">
+     <TexMod TileU="0.050000001" TileV="0.050000001"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/rock/specular/cliffs0090_2_m_spec.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1" DetailTextureStrength="0.46200001" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

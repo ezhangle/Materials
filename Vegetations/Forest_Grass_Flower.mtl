@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Vegetation" GenMask="2401800200" StringGenMask="%BUMP_MAP%LEAVES%MERGED_TEXTURES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.19751643,0.19751643,0.19751643" Specular="0.039947167,0.039947167,0.039947167" Emissive="0,0,0" Shininess="64" Opacity="1" AlphaTest="0.31999999" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/vegetation/forestgrass_ex_diff.dds"/>
+  <Texture Map="Specular" File="objects/natural/ground/forestgrass/textures/forestgrass_spec.tif"/>
+  <Texture Map="Bumpmap" File="objects/natural/ground/forestgrass/textures/forestgrass_ddn.tif"/>
+ </Textures>
+ <PublicParams bendDetailLeafAmplitude="0.032000002" bendDetailFrequency="9.71" bendDetailBranchAmplitude="-9.4099998" BlendTerrainCol="0" GlossMapChannelB="0" FresnelScale="1" VertexAlphaBlendFactor="1" FresnelBias="1" CapOpacityFalloff="0.032000002" BackViewDep="0" BackDiffuseMultiplier="1" BlendTerrainColDist="0.0099999998" IndirectColor="0.25,0.25,0.25"/>
+</Material>

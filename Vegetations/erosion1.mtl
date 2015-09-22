@@ -1,0 +1,43 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="soil" MtlFlags="524424" Shader="Illum" GenMask="2002080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%OFFSET_BUMP_MAPPING%VERTCOLORS" SurfaceType="mat_rock_landslide" MatTemplate="" Diffuse="0.58597302,0.63877946,0.42590532" Specular="0.53564161,0.5989418,0.49361622" Emissive="0,0,0" Shininess="195" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/erosion/textures/soil_diff.tif" Filter="4"/>
+    <Texture Map="Specular" File="textures/decals/mud/mud_1_spec.tif"/>
+    <Texture Map="Bumpmap" File="textures/decals/mud/mud_1_ddn.tif"/>
+    <Texture Map="Heightmap" File="textures/decals/mud/mud_1_displ.tif"/>
+   </Textures>
+   <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.025" SelfShadowStrength="3" ObmDisplacement="0.025" HeightBias="1" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+  </Material>
+  <Material Name="trunk" MtlFlags="524416" Shader="Illum" GenMask="40200" StringGenMask="%BUMP_MAP%GLOSS_DIFFUSEALPHA" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.21951973,0.21951973,0.21951973" Specular="0.11657578,0.11657578,0.11657578" Emissive="0,0,0" Shininess="20" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/rocky_ravine/textures/spruce_trunk_dead_ddn.tif"/>
+   </Textures>
+   <PublicParams FresnelScale="1" FresnelBias="0.2" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="roots" MtlFlags="524418" Shader="Illum" GenMask="2000080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.23099814,0.23099814,0.23099814" Specular="0.31118053,0.31118053,0.31118053" Emissive="0,0,0" Shininess="40" Opacity="1" AlphaTest="0.30000001" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/erosion/textures/roots_diff.tif"/>
+    <Texture Map="Specular" File="objects/natural/rocks/erosion/textures/roots_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/erosion/textures/roots_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" FresnelBias="0.30000001" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_soil" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="surface" MtlFlags="524416" Shader="Illum" GenMask="2000080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_soil" MatTemplate="" Diffuse="0.14198029,0.288816,0.067724593" Specular="0.037028514,0.037028514,0.037028514" Emissive="0,0,0" Shininess="63" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/erosion/textures/grass_diff.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/erosion/textures/grass_spec.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/erosion/textures/grass_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="5" FresnelBias="0.17" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

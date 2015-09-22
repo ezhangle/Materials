@@ -1,0 +1,178 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="Rock" MtlFlags="524416" Shader="Illum" GenMask="2000042200" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" Shininess="30" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="2" TileV="2"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/rock/rock_1_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="_spare1" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="Proxy" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="_spare2" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_rock" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="deco_rock_forest_b" MtlFlags="524416" Shader="Illum" GenMask="2000042240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.11657578,0.13902245,0.17677432" Specular="0.49950528,0.49950528,0.49950528" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/med_a_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/rock_forest_wall_dark.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/rock_forest_wall_ddn.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.5" BlendLayer2Tiling="1" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="3.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="cliff_a" MtlFlags="524416" Shader="Illum" GenMask="2000042240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.22331043,0.22331043,0.22331043" Specular="0.12752977,0.12752977,0.12752977" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/med_b_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/moss_ddn.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="3" BlendLayer2Tiling="1" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="3" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="cliff_b" MtlFlags="524416" Shader="Illum" GenMask="2000042240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.11657578,0.13902245,0.17677432" Specular="0.49950528,0.49950528,0.49950528" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/med_c_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/moss_ddn.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.5" BlendLayer2Tiling="1" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="2" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="deco_rock_forest_river_b" MtlFlags="524416" Shader="Illum" GenMask="2000042240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.078056589,0.09387587,0.11926401" Specular="0.26735809,0.26735809,0.26735809" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/river_d6_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/moss_ddn.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.5" BlendLayer2Tiling="1" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="3" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="deco_rock_forest_river_a" MtlFlags="524416" Shader="Illum" GenMask="20800C2240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.11657578,0.13902245,0.17677432" Specular="0.26735809,0.26735809,0.26735809" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/river_e7_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/moss_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="1.5" SpecMapChannelR="0" BlendLayer2Tiling="1" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="4" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="deco_rock_forest_wall_a" MtlFlags="524416" Shader="Illum" GenMask="2000042240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.035614368,0.042987008,0.051122054" Specular="0.21576439,0.21576439,0.21576439" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/med_f_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/moss_ddn.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="1.5" BlendLayer2Tiling="1" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="4" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="deco_rock_forest_wall_b" MtlFlags="524416" Shader="Illum" GenMask="2000042240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.11657578,0.13902245,0.17677432" Specular="0.49950528,0.49950528,0.49950528" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/med_g_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/moss_ddn.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="2" BlendLayer2Tiling="1" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="4" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mountain" MtlFlags="524416" Shader="Illum" GenMask="2000042240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.61868572,0.70829779,0.77422732" Specular="0.20835964,0.20835964,0.20835964" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/larg_a_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/moss_ddn.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="3" BlendLayer2Tiling="1" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="3" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="mountain_b" MtlFlags="524416" Shader="Illum" GenMask="20800C2240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%GLOSS_MAP%SPECULARPOW_GLOSSALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.1036341,0.11392093,0.13609855" Specular="0.32503697,0.32503697,0.32503697" Emissive="0,0,0" Shininess="255" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Specular" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/larg_b_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/moss_ddn.tif"/>
+   </Textures>
+   <PublicParams SpecMapChannelB="0" BlendFalloff="2" SpecMapChannelR="0" BlendLayer2Tiling="2" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="4" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="ground" MtlFlags="524416" Shader="Illum" GenMask="2000042240" StringGenMask="%BLENDLAYER%BUMP_MAP%DETAIL_MAPPING%GLOSS_DIFFUSEALPHA%VERTCOLORS" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.08241421,0.08241421,0.08241421" Specular="0.19046287,0.19046287,0.19046287" Emissive="0,0,0" Shininess="40" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/rocks/forest_rock/textures/rock_diff.tif">
+     <TexMod TileU="10" TileV="10"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/natural/rocks/forest_rock/textures/rock_ddn.tif"/>
+    <Texture Map="Detail" File="objects/natural/rocks/forest_rock/textures/small_detail.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Opacity" File="textures/generic/blend_masks/rock_a_mask.tif"/>
+    <Texture Map="Custom" File="objects/natural/rocks/forest_rock/textures/moss_diff.tif"/>
+    <Texture Map="[1] Custom" File="objects/natural/rocks/forest_rock/textures/moss_ddn.tif"/>
+   </Textures>
+   <PublicParams BlendFalloff="10" BlendLayer2Tiling="0.69999999" FresnelScale="1" DetailDiffuseScale="0" FresnelBias="0.5" DetailBumpScale="1" BlendFactor="4" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="0" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

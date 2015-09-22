@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Terrain.Layer" GenMask="200000000" StringGenMask="%TEMP_TERRAIN" SurfaceType="mat_rock_landslide" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0,0,0" Emissive="0,0,0" Shininess="35" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/ground/gravel0066_9_l.dds" Filter="7">
+   <TexMod TileU="0.1" TileV="0.1"/>
+  </Texture>
+ </Textures>
+ <PublicParams BlendFalloff="1" DetailTextureStrength="1" FresnelScale="1" FresnelBias="1" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

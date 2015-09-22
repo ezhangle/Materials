@@ -1,0 +1,10 @@
+<Material MtlFlags="524288" Shader="Terrain.Layer" GenMask="240000080" StringGenMask="%BUMP_MAP%SPEC_MAP%TEMP_TERRAIN" SurfaceType="mat_rock_landslide" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.0074990322,0.0074990322,0.0074990322" Emissive="0,0,0" Shininess="4" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/sand/soilsand0168_15_l.dds" Filter="7">
+   <TexMod TileU="0.1" TileV="0.1"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/sand/specular/soilsand0168_15_m_spec.dds" Filter="7"/>
+  <Texture Map="Bumpmap" File="textures/terrain/sand/normal/soilsand0168_15_m_ddn.tif" Filter="7"/>
+ </Textures>
+ <PublicParams BlendFalloff="1" DetailTextureStrength="0.89399999" BlendFactor="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

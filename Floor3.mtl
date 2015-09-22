@@ -1,0 +1,10 @@
+<Material MtlFlags="524288" Shader="Terrain.Layer" GenMask="200080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%TEMP_TERRAIN" SurfaceType="mat_rock_dusty" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.016988052,0.016988052,0.016988052" Emissive="0,0,0" Shininess="42" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/buildings/floor/floorherringbone0059_1_m.dds" Filter="7">
+   <TexMod TileU="0.40000001" TileV="0.40000001"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/buildings/floor/specular/floorherringbone0059_1_m_spec.dds" Filter="7"/>
+  <Texture Map="Bumpmap" File="textures/buildings/floor/normal/floorherringbone0059_1_m_ddn.dds" Filter="7"/>
+ </Textures>
+ <PublicParams BlendFalloff="1" DetailTextureStrength="1.1059999" FresnelScale="1" FresnelBias="0.63300002" BlendFactor="0" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+</Material>

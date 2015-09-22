@@ -1,0 +1,5 @@
+<Material MtlFlags="524288" Shader="Sky" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.28445208,0.28445208,0.28445208" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/skys/mountains0157_1/box_12.dds"/>
+ </Textures>
+</Material>

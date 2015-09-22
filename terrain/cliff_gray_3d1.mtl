@@ -1,0 +1,44 @@
+<Material MtlFlags="524544">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="524460" Shader="Terrain.Layer" GenMask="208040200" StringGenMask="%BUMP_MAP%GLOSS_DIFFUSEALPHA%PARALLAX_OCCLUSION_MAPPING%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.11657578,0.11657578,0.11657578" Emissive="0,0,0" Shininess="20" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_gray_distance_flat_diff.tif" Filter="7">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_rock_jagged_ddn.tif" Filter="5">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Heightmap" File="textures/terrain/detail/cliff_rock_jagged_displ.tif"/>
+   </Textures>
+   <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+   <PublicParams BlendFalloff="0.5" DetailTextureStrength="0.40000001" PomDisplacement="0.02" FresnelScale="1" FresnelBias="0.40000001" SelfShadowStrength="5" HeightBias="0.5" BlendFactor="8" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="y" MtlFlags="524460" Shader="Terrain.Layer" GenMask="208040200" StringGenMask="%BUMP_MAP%GLOSS_DIFFUSEALPHA%PARALLAX_OCCLUSION_MAPPING%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.11657578,0.11657578,0.11657578" Emissive="0,0,0" Shininess="20" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_gray_distance_flat_diff.tif" Filter="7">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_rock_jagged_ddn.tif" Filter="5">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Heightmap" File="textures/terrain/detail/cliff_rock_jagged_displ.tif"/>
+   </Textures>
+   <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+   <PublicParams BlendFalloff="0.5" DetailTextureStrength="0.40000001" PomDisplacement="0.02" FresnelScale="1" FresnelBias="0.40000001" SelfShadowStrength="5" HeightBias="0.5" BlendFactor="8" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="z" MtlFlags="524460" Shader="Terrain.Layer" GenMask="208040200" StringGenMask="%BUMP_MAP%GLOSS_DIFFUSEALPHA%PARALLAX_OCCLUSION_MAPPING%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.11657578,0.11657578,0.11657578" Emissive="0,0,0" Shininess="20" Opacity="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_gray_distance_flat_diff.tif" Filter="7">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_rock_jagged_ddn.tif" Filter="5">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Heightmap" File="textures/terrain/detail/cliff_rock_jagged_displ.tif"/>
+   </Textures>
+   <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+   <PublicParams BlendFalloff="0.5" DetailTextureStrength="0.40000001" PomDisplacement="0.02" FresnelScale="1" FresnelBias="0.40000001" SelfShadowStrength="5" HeightBias="0.5" BlendFactor="8" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

@@ -1,0 +1,12 @@
+<Material MtlFlags="524328" Shader="Illum" GenMask="2000082A00" StringGenMask="%BUMP_MAP%DECAL%DETAIL_MAPPING%GLOSS_MAP%VERTCOLORS" SurfaceType="mat_concrete" MatTemplate="" Diffuse="0.16364066,0.16364066,0.16364066" Specular="0.010397803,0.010397803,0.010397803" Emissive="0,0,0" Shininess="42" Opacity="0.94" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/road/soilsand0168_15_m_road.dds" Filter="7">
+   <TexMod OffsetU="1" OffsetV="1"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/sand/specular/soilsand0168_15_m_spec.dds"/>
+  <Texture Map="Bumpmap" File="textures/terrain/sand/normal/soilsand0168_15_m_ddn.dds"/>
+  <Texture Map="Detail" File="textures/detail_bumpmaps/mud/mud_detail.tif"/>
+ </Textures>
+ <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+ <PublicParams SpecMapChannelB="0" SpecMapChannelR="0" GlossMapChannelB="0" SpecMapChannelG="0" FresnelScale="1" DetailDiffuseScale="0.40000001" FresnelBias="0.65799999" DetailBumpScale="0.40000001" DetailGlossScale="0.40000001" IndirectColor="0.25,0.25,0.25"/>
+</Material>

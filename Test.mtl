@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="0" StringGenMask="" SurfaceType="" MatTemplate="" Diffuse="0.1036341,0.1036341,0.1036341" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/cliff_gray_distance_flat_diff.tif">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+ </Textures>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>

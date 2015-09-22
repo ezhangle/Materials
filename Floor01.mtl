@@ -1,0 +1,11 @@
+<Material MtlFlags="524288" Shader="Terrain.Layer" GenMask="200080200" StringGenMask="%BUMP_MAP%GLOSS_MAP%TEMP_TERRAIN" SurfaceType="mat_rock_dusty" MatTemplate="" Diffuse="0.29765266,0.29765266,0.29765266" Specular="0.010397803,0.010397803,0.010397803" Emissive="0,0,0" Shininess="42" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/floor/floorsregular0181_1_m.dds" Filter="7">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/floor/specular/floorsregular0181_1_m_spec.dds"/>
+  <Texture Map="Bumpmap" File="textures/terrain/floor/normal/floorsregular0181_1_m_ddn.tif"/>
+  <Texture Map="Heightmap" File="textures/terrain/floor/normal/floorsregular0181_1_m_displ.dds"/>
+ </Textures>
+ <PublicParams BlendFalloff="1" DetailTextureStrength="1.1160001" FresnelScale="1" FresnelBias="0.65799999" BlendFactor="0" IndirectColor="0.24680044,0.24680044,0.24680044"/>
+</Material>

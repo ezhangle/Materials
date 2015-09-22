@@ -1,0 +1,41 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2420400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.50543249,0.50543249,0.50543249" Specular="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" Opacity="1" Shininess="20" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/thin_leave_tree/textures/trunk_pino.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/thin_leave_tree/textures/trunk_pino_ddn.tif"/>
+    <Texture Map="Specular" File="objects/natural/trees/thin_leave_tree/textures/trunk_pino_spec.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_detail.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="4" TileV="4"/>
+    </Texture>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.079999998" bendDetailFrequency="5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" DetailDiffuseScale="1" VertexAlphaBlendFactor="1" DetailBumpScale="1" BlendMaskTiling="1" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="leaves" MtlFlags="524416" Shader="Vegetation" GenMask="2420C01000" StringGenMask="%DETAIL_BENDING%LEAVES%NORMAL_MAP%SPECULAR_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.56049919,0.6523701,0.46474114" Specular="0.33445781,0.33445781,0.33445781" Emissive="0,0,0" Opacity="1" Shininess="20" AlphaTest="0.30000001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/bushes/roundleafbush/textures/leaves_a_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/natural/bushes/roundleafbush/textures/leaves_a_ddn.tif"/>
+    <Texture Map="Specular" File="objects/natural/bushes/roundleafbush/textures/leaves_a_spec.tif"/>
+    <Texture Map="Opacity" File="objects/natural/bushes/roundleafbush/textures/leaves_a_opac.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.69999999" bendDetailFrequency="0.30000001" bendDetailBranchAmplitude="0" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="0" BlendMaskTiling="1" BackViewDep="1" BackDiffuseMultiplier="0.20900001" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="branches" MtlFlags="655520" Shader="Vegetation" GenMask="2420801000" StringGenMask="%DETAIL_BENDING%LEAVES%SPECULAR_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.38377467,0.38377467,0.38377467" Specular="0.21951973,0.21951973,0.21951973" Emissive="0,0,0" Opacity="1" Shininess="20" AlphaTest="0.49505001" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/natural/trees/river_tree/textures/branch_a.tif"/>
+    <Texture Map="Specular" File="objects/natural/trees/river_tree/textures/branch_a.tif"/>
+   </Textures>
+   <PublicParams bendDetailLeafAmplitude="0.1" bendDetailFrequency="1" bendDetailBranchAmplitude="0" BlendTerrainCol="0" VertexAlphaBlendFactor="1" TransmittanceColor="1,1,0.60000002" CapOpacityFalloff="1" BlendMaskTiling="1" BackViewDep="0.5" BackDiffuseMultiplier="0" BlendTerrainColDist="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy_bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="0,1,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="proxy_trunk" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

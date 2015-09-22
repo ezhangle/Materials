@@ -1,0 +1,6 @@
+<Material MtlFlags="524288" Shader="Cloth" GenMask="100000000000" StringGenMask="%TEMP_CLOTH" SurfaceType="mat_fabric" MatTemplate="" Diffuse="0.6523701,0.73720479,0.73720479" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.76999998" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sipralgraphics/mycarpet.tif"/>
+ </Textures>
+ <PublicParams AnimAmplitudeWav0="0.5" FresnelScale="1" FuzzynessSpread="1" FuzzynessStrength="1.5" FresnelBias="1" FuzzynessSmoothness="1" FuzzynessSaturation="1" DiffuseExponent="0.5" AnimFrequency="0.1" AnimAmplitudeWav2="0.5" AnimPhase="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>

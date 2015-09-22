@@ -1,0 +1,8 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="80200" StringGenMask="%BUMP_MAP%GLOSS_MAP" SurfaceType="mat_rock" MatTemplate="" Diffuse="0.12752977,0.12752977,0.12752977" Specular="0.020951131,0.020951131,0.020951131" Emissive="0,0,0" Shininess="94" Opacity="1" CloakAmount="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/cliff_is4.tif"/>
+  <Texture Map="Specular" File="textures/terrain/detail/cliff_is4.dds"/>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_is4_ddn.dds"/>
+ </Textures>
+ <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+</Material>
