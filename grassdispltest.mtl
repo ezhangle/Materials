@@ -1,0 +1,9 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="60404001" StringGenMask="%ALLOW_SILHOUETTE_POM%DISPLACEMENT_MAPPING%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="" MatTemplate="" Diffuse="0.17464744,0.17464744,0.17464744" Specular="0.21223079,0.21223079,0.21223079" Opacity="1" Shininess="8" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/grass/diffuse/grass0035_2_l.dds"/>
+  <Texture Map="Bumpmap" File="textures/terrain/grass/normal/tif/grass0035_2_m_ddn.dds"/>
+  <Texture Map="Specular" File="textures/terrain/grass/specular/tif/grass0035_2_m_spec.tif"/>
+  <Texture Map="Heightmap" File="textures/terrain/grass/displacement/grass0035_2_m_displ.dds"/>
+ </Textures>
+ <PublicParams TessellationFaceCull="1" EmittanceMapGamma="1.312" TessellationFactor="10" TessellationDispBias="1" TessellationHeightScale="1.4" SSSIndex="0" TessellationFactorMax="32" TessellationFactorMin="1" IndirectColor="0.25,0.25,0.25"/>
+</Material>
