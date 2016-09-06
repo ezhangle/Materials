@@ -1,0 +1,7 @@
+<Material MtlFlags="524288" Shader="Illum" GenMask="40400000" StringGenMask="%NORMAL_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_default" MatTemplate="" Diffuse="0.42869052,0.42869052,0.42869052" Specular="0.015996294,0.015996294,0.015996294" Opacity="1" Shininess="123" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/fabrics/road_carpets/carpet01.dds" Filter="7"/>
+  <Texture Map="Bumpmap" File="textures/fabrics/road_carpets/carpet01_ddna.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="3.27" IndirectColor="0.25,0.25,0.25"/>
+</Material>
