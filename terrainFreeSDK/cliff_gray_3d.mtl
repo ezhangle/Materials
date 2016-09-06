@@ -1,0 +1,50 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="524460" Shader="Terrain.Layer" GenMask="228400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SPECULAR_MAP%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.11443538,0.11443538,0.11443538" Opacity="1" Shininess="20" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrainFreeSDK/detail/cliff_gray_distance_flat_diff.tif" Filter="7">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrainFreeSDK/detail/cliff_rock_jagged_ddn.tif" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrainFreeSDK/detail/cliff_gray_distance_flat_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/rock/rock_1_detail.tif"/>
+    <Texture Map="Heightmap" File="textures/terrainFreeSDK/detail/cliff_rock_jagged_displ.tif"/>
+   </Textures>
+   <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+   <PublicParams BlendFalloff="0.5" DetailTextureStrength="0.88800001" PomDisplacement="0.02" DetailDiffuseScale="0" DetailBumpScale="0.70999998" SelfShadowStrength="5" HeightBias="0.5" BlendFactor="8" DetailGlossScale="0.55599999" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="y" MtlFlags="524460" Shader="Terrain.Layer" GenMask="228400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SPECULAR_MAP%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.11657578,0.11657578,0.11657578" Opacity="1" Shininess="20" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrainFreeSDK/detail/cliff_gray_distance_flat_diff.tif" Filter="7">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrainFreeSDK/detail/cliff_rock_jagged_ddn.tif" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrainFreeSDK/detail/cliff_gray_distance_flat_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/rock/rock_1_detail.tif"/>
+    <Texture Map="Heightmap" File="textures/terrainFreeSDK/detail/cliff_rock_jagged_displ.tif"/>
+   </Textures>
+   <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+   <PublicParams BlendFalloff="0.5" DetailTextureStrength="0.88800001" PomDisplacement="0.02" DetailDiffuseScale="0.5" DetailBumpScale="0.70999998" SelfShadowStrength="5" HeightBias="0.5" BlendFactor="8" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="z" MtlFlags="524460" Shader="Terrain.Layer" GenMask="228400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%PARALLAX_OCCLUSION_MAPPING%SPECULAR_MAP%TEMP_TERRAIN" SurfaceType="mat_rock" MatTemplate="" Diffuse="1,1,1" Specular="0.11657578,0.11657578,0.11657578" Opacity="1" Shininess="20" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrainFreeSDK/detail/cliff_gray_distance_flat_diff.tif" Filter="7">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrainFreeSDK/detail/cliff_rock_jagged_ddn.tif" Filter="5">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrainFreeSDK/detail/cliff_gray_distance_flat_diff.tif"/>
+    <Texture Map="Detail" File="textures/detail_bumpmaps/rock/rock_1_detail.tif"/>
+    <Texture Map="Heightmap" File="textures/terrainFreeSDK/detail/cliff_rock_jagged_displ.tif"/>
+   </Textures>
+   <DetailDecal Opacity="128" SSAOAmount="0" topTileU="1" topTileV="1" topOffsV="0" topOffsU="0" topRotation="0" topDeformation="0" topSortOffset="0" bottomTileU="0.5" bottomTileV="0.5" bottomOffsV="0.5" bottomOffsU="0.5" bottomRotation="0" bottomDeformation="0" bottomSortOffset="0"/>
+   <PublicParams BlendFalloff="0.5" DetailTextureStrength="0.88800001" PomDisplacement="0.02" DetailDiffuseScale="0.5" DetailBumpScale="0.70999998" SelfShadowStrength="5" HeightBias="0.5" BlendFactor="8" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
