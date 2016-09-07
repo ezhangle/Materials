@@ -1,36 +1,36 @@
-<Material MtlFlags="4718848">
+<Material MtlFlags="4718848" vertModifType="0">
  <SubMaterials>
-  <Material Name="trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2401002200" StringGenMask="%BUMP_MAP%DETAIL_MAPPING%MERGED_TEXTURES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.30212551,0.32503697,0.25084025" Specular="0.11657578,0.11657578,0.11657578" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+  <Material Name="trunk" MtlFlags="524416" Shader="Vegetation" GenMask="2420400400" StringGenMask="%DETAIL_MAPPING%NORMAL_MAP%SPECULAR_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_wood" MatTemplate="" Diffuse="0.79910284,0.79910284,0.79910284" Specular="0.023153368,0.023153368,0.023153368" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="textures/vegetation/trunk/barkdecidious0143_9_m.dds"/>
+    <Texture Map="Bumpmap" File="objects/natural/trees/thin_leave_tree/textures/con_palm_pino_trunk_ddna.dds"/>
     <Texture Map="Specular" File="objects/natural/trees/thin_leave_tree/textures/con_palm_pino_trunk_spec.tif"/>
-    <Texture Map="Bumpmap" File="objects/natural/trees/thin_leave_tree/textures/con_palm_pino_trunk_ddn.tif"/>
     <Texture Map="Detail" File="textures/detail_bumpmaps/wood/wood_fine_detail.tif">
-     <TexMod TileU="8" TileV="8"/>
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="8" TileV="8"/>
     </Texture>
    </Textures>
-   <PublicParams bendDetailLeafAmplitude="0.079999998" bendDetailFrequency="5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" GlossMapChannelB="0" FresnelScale="1" DetailDiffuseScale="0.5" VertexAlphaBlendFactor="1" FresnelBias="0.2" DetailBumpScale="3.24" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+   <PublicParams bendDetailLeafAmplitude="0.079999998" bendDetailFrequency="5" bendDetailBranchAmplitude="0.2" BlendTerrainCol="0" DetailDiffuseScale="0.5" VertexAlphaBlendFactor="1" DetailBumpScale="3.24" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
   </Material>
-  <Material Name="leaves" MtlFlags="524416" Shader="Vegetation" GenMask="2401803200" StringGenMask="%BUMP_MAP%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%MERGED_TEXTURES%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.60548431,0.42050794,0.0060405931" Specular="0.013473397,0.013473397,0.013473397" Emissive="0,0,0" Shininess="33" Opacity="1" AlphaTest="0.5" LayerAct="1">
+  <Material Name="leaves" MtlFlags="524416" Shader="Vegetation" GenMask="2420C01400" StringGenMask="%DETAIL_BENDING%DETAIL_MAPPING%LEAVES%NORMAL_MAP%SPECULAR_MAP%TEMP_VEGETATION%VERTCOLORS" SurfaceType="mat_vegetation" MatTemplate="" Diffuse="0.60548431,0.42050794,0.0060405931" Specular="0.013473397,0.013473397,0.013473397" Opacity="1" Shininess="33" AlphaTest="0.5" vertModifType="0" LayerAct="1">
    <Textures>
     <Texture Map="Diffuse" File="objects/natural/bushes/roundleafbush/textures/leaves_a_diff.tif" Filter="7"/>
-    <Texture Map="Specular" File="textures/vegetation/branches/branches0003_m_ex_new_spec.tif"/>
-    <Texture Map="Bumpmap" File="textures/vegetation/branches/branches0003_m_ex_new_ddn.tif"/>
+    <Texture Map="Bumpmap" File="textures/vegetation/branches/normal/branches0002_m_ex_ddn.tif"/>
+    <Texture Map="Specular" File="textures/vegetation/branches/specular/branches0002_m_ex_spec.dds"/>
     <Texture Map="Detail" File="textures/detail_bumpmaps/plants/plants_leaf_detail.tif">
-     <TexMod TileU="10" TileV="10"/>
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="10" TileV="10"/>
     </Texture>
    </Textures>
-   <PublicParams bendDetailLeafAmplitude="0.5" bendDetailFrequency="0.36000001" bendDetailBranchAmplitude="3.0999999" BlendTerrainCol="0" GlossMapChannelB="0" FresnelScale="1" DetailDiffuseScale="1" VertexAlphaBlendFactor="1" FresnelBias="1" DetailBumpScale="1" CapOpacityFalloff="1" BackViewDep="0.5" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
+   <PublicParams bendDetailLeafAmplitude="0.5" bendDetailFrequency="0.36000001" bendDetailBranchAmplitude="3.0999999" BlendTerrainCol="0" DetailDiffuseScale="1" VertexAlphaBlendFactor="1" NormalViewDependency="0.5" TransmittanceColor="1,1,0.60000002" DetailBumpScale="1" CapOpacityFalloff="1" BackDiffuseMultiplier="1" BlendTerrainColDist="0.5" DetailGlossScale="0.5" IndirectColor="0.25,0.25,0.25"/>
   </Material>
-  <Material Name="obstruct_bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+  <Material Name="obstruct_bending" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
    <Textures />
   </Material>
-  <Material Name="obstruct_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+  <Material Name="obstruct_AI" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_canopy" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
    <Textures />
   </Material>
-  <Material Name="proxy_trunk" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" LayerAct="1">
+  <Material Name="proxy_trunk" MtlFlags="525440" Shader="Nodraw" GenMask="0" StringGenMask="" SurfaceType="mat_wood" MatTemplate="" Diffuse="1,0,0" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
    <Textures />
   </Material>
  </SubMaterials>
- <PublicParams GlossFromDiffuseContrast="1" FresnelScale="1" GlossFromDiffuseOffset="0" FresnelBias="1" GlossFromDiffuseAmount="0" GlossFromDiffuseBrightness="0.333" IndirectColor="0.25,0.25,0.25"/>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
 </Material>
